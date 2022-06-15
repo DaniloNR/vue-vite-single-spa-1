@@ -1,8 +1,8 @@
 // store.ts
-import { InjectionKey } from 'vue';
-import { createLogger, createStore, Store } from 'vuex';
-import { MainState } from '@/store/types/main';
-import { main } from '@/store/modules/main';
+import { InjectionKey } from "vue";
+import { createLogger, createStore, Store } from "vuex";
+import { MainState } from "@/store/types/main";
+import { main } from "@/store/modules/main";
 
 // import { user } from "navigation/userStore";
 

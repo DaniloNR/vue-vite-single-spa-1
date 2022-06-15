@@ -1,5 +1,5 @@
-import { MainState } from '@/store/types/main';
-import { ActionTree, GetterTree, Module, MutationTree } from 'vuex';
+import { MainState } from "@/store/types/main";
+import { ActionTree, GetterTree, Module, MutationTree } from "vuex";
 
 export const state: MainState = {
   count: 0,
@@ -8,13 +8,13 @@ export const state: MainState = {
 
 const actions: ActionTree<MainState, MainState> = {
   INCREMENT_COUNTER({ state, commit }, $payload: number = 1) {
-    commit('SET_COUNT', (state.count += $payload));
+    commit("SET_COUNT", (state.count += $payload));
   },
   DECREMENT_COUNTER({ state, commit }, $payload: number = 1) {
-    commit('SET_COUNT', (state.count -= $payload));
+    commit("SET_COUNT", (state.count -= $payload));
   },
   RESET_COUNTER({ state, commit }) {
-    commit('SET_COUNT', 0);
+    commit("SET_COUNT", 0);
   },
 };
 

@@ -6,9 +6,9 @@ HelloWorld(msg="Hello Vue 3 + TypeScript + Vite")
 </template>
 
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
-import LogoUrl from './assets/logo.png';
-import parsePublicAssetsPath from './utils/parse-public-assets-path';
+import HelloWorld from "./components/HelloWorld.vue";
+import LogoUrl from "./assets/logo.png";
+import parsePublicAssetsPath from "./utils/parse-public-assets-path";
 </script>
 
 <style>
